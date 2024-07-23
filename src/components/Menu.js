@@ -24,6 +24,7 @@ function Menu() {
     }
 
     return (
+        <div className="container">
         <div className="Menu">
             <label>Enter Your Name:</label>
             <input
@@ -40,6 +41,7 @@ function Menu() {
             >
                 Start Quiz
             </button>
+        </div>
         </div>
     );
 }
